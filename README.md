@@ -3,9 +3,7 @@
 
 # I AM
  I have completed this task as required. To start I created a IAM role and attached policies to this include    ECS tasks execution and S3  access. Please note that I have used services for ECS and S3 policies including S3: Access i.e  Get Object, Put Object and delete Object .
- 
-Container
-A container with base image Nginx also created and port 80 OPEN
+
  
 # VPC
 # I created a VPC which has public and private subnets which is created in 2 AZs for high availability
@@ -16,6 +14,9 @@ A container with base image Nginx also created and port 80 OPEN
 # For ECS, I created an ESC resource cluster, created  ESC task definition  which specified memory, CPU etc and Fargate and then created an ECS service.
  
 # Service was used to create 2 tasks
+
+Container
+Please see the terraform code
  
 # The server deployed runs in a cluster of EC2 which is connected to the RDS DB. 
 Because of time constraints, no website server is put up for this task.
