@@ -9,11 +9,11 @@ A container with base image Nginx also created and port 80 OPEN
  
 # VPC
 # I created a VPC which has public and private subnets which is created in 2 AZs for high availability
-# IGW is deployed and will received traffics from the pubic and send to ALB
+# IGW normally be deployed, although not in the terraform code it will received traffics from the pubic and send to ALB
 # ALB deployed in the public subnet
 # ALB sends traffic into the ECS cluster
  
-# For ESC, I created an ESC resource cluster, created  ESC task definition  which specified memory etc and Fargate and then created an ECS service.
+# For ECS, I created an ESC resource cluster, created  ESC task definition  which specified memory etc and Fargate and then created an ECS service.
  
 # Service was used to create 2 tasks
  
