@@ -13,7 +13,7 @@ A container with base image Nginx also created and port 80 OPEN
 # ALB deployed in the public subnet
 # ALB sends traffic into the ECS cluster
  
-# For ECS, I created an ESC resource cluster, created  ESC task definition  which specified memory etc and Fargate and then created an ECS service.
+# For ECS, I created an ESC resource cluster, created  ESC task definition  which specified memory, CPU etc and Fargate and then created an ECS service.
  
 # Service was used to create 2 tasks
  
